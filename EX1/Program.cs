@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace EX1
 {
     class Program
@@ -16,8 +17,9 @@ namespace EX1
             var height = Console.ReadLine();
             Console.WriteLine("Сколько вы весите? : ");
             var weight = Console.ReadLine();
-            var sum = name + family + age + height + weight;
-            Console.WriteLine($"{name} + {family} + {age} + {height} + {weight} = {sum}");
+            var sum = name  +  family + " , " + age + " , " + height + " , " + weight;
+            Console.WriteLine($"{sum}");
+           
         }
     }
 }
